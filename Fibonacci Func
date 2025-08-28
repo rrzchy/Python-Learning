@@ -3,6 +3,8 @@ def fibbo(n):
     for i in range(n):
       if i == 0:
          print(i)
+      elif i == 1:
+         print(i)
       else:
         c = a + b
         a = b 
