@@ -1,0 +1,12 @@
+def fibbo(n):
+    a , b = 0 , 1
+    for i in range(n):
+      if i == 0:
+         print(i)
+      else:
+        c = a + b
+        a = b 
+        b = c 
+        print(c)
+
+fibbo(10)
