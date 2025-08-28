@@ -1,12 +1,18 @@
 a = 0
 b = 1
 
-print(a)
-print(b)
+n= int(input("What is n? \n"))
 
-for i in range(10):
+# print(a)
+# print(b)
 
-   c = a + b
-   a = b 
-   b = c
-   print(c)
+for i in range(n):
+   if i == 0:
+      print(a)
+   elif i == 1:
+      print(b)
+   else:
+        c = a + b
+        a = b 
+        b = c
+        print(c)
